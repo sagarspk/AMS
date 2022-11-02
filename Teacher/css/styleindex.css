@@ -1,0 +1,43 @@
+header{
+    background-color: rgba(65, 247, 247, 0.808); 
+    /* width: 100%;  */
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    margin-left: 0px;
+    position: relative;
+ 
+ }
+ button{
+     display: inline-block;
+     position: relative;
+     border-radius: 15px;
+     border:2px solid rgb(202, 196, 196);
+     color: black;
+     padding: 10px;
+     background-color: rgba(255, 166, 0, 0.87);
+     /* box-shadow: 0px 10px 0px red; */
+     /* background: linear-gradient(180deg,rgb(228, 171, 133) 41%,white 10%, rgb(105, 226, 105) 49%); */
+ }
+ button:hover{
+     box-shadow:0 0 10px;
+ }
+ 
+ table{
+     grid: 10%;
+     /* border: 1px solid black; */
+     border-radius: 15px;
+     width: 100%;
+     border-collapse: collapse;
+     box-shadow: 10px;
+ 
+ }
+ tr,th,td{
+     border: 1px solid black;
+     text-align: center;
+     font-size: 16px;
+     font-family: sans-serif;
+ 
+     padding: 5px;
+ }
+ 
