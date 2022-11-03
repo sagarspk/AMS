@@ -20,12 +20,12 @@ if($num>0){
 	header("Location : ../index.php");
 }
 	
-
+$Date= date("Y-m-d H:m:s");
 $attendance	= $row['Attendance'];	
 if($attendance!= "Present"){
 	
 	$value		= "Present";
-	$attensql	= "update tblStudent set Attendance='$value', Ldate=now(), Present=Present+1, Absent=Absent-1 where ID='$_SESSION[ID]'";
+	$attensql	= "update tblStudent set Attendance='$value', Ldate='$Date', Present=Present+1, Absent=Absent-1 where ID='$_SESSION[ID]'";
 	$attenrs 	= $conn->query($attensql);
 }
 
